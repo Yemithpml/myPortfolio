@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <a href="index.html">
+      <h2 class="logo">MyPortfolio</h2>
+    </a>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <h2>Contact Me</h2>
+  <div class="card contact-card">
+    <p><strong>Email:</strong> <a href="mailto:yemithcodes@email.com">yemithcodes@email.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+2348134413741">+234 813 441 3741</a></p>
+
+    <div class="social-icons">
+      <!-- GitHub -->
+      <a href="https://github.com/yemithpml" target="_blank" aria-label="GitHub">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="#000" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.387.6.11.82-.26.82-.577v-2.234
+            c-3.338.726-4.033-1.61-4.033-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.744.082-.729.082-.729
+            1.205.084 1.84 1.238 1.84 1.238 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.304.76-1.604
+            -2.665-.303-5.467-1.332-5.467-5.93 0-1.31.467-2.38 1.235-3.22-.124-.303-.535-1.523.117-3.176
+            0 0 1.008-.322 3.3 1.23a11.53 11.53 0 013-.404c1.02.005 2.05.138 3 .404 2.29-1.552 3.297-1.23
+            3.297-1.23.654 1.653.243 2.873.12 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.48 5.922
+            .43.37.813 1.102.813 2.222v3.293c0 .32.216.694.825.576C20.565 21.796 24 17.298 24 12
+            0-6.63-5.373-12-12-12z"/>
+        </svg>
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/yemith.dev" target="_blank" aria-label="Instagram">
+        <svg width="40" height="40" viewBox="0 0 448 512" fill="#000" xmlns="http://www.w3.org/2000/svg">
+          <path d="M224.1 141c-63.6 0-115 51.4-115 115s51.4 115 115 115
+            115-51.4 115-115-51.4-115-115-115zm0 190c-41.4 0-75-33.6-75-75
+            s33.6-75 75-75 75 33.6 75 75-33.6 75-75 75zm146.4-194.1c0 14.9-12 26.9-26.9 26.9
+            s-26.9-12-26.9-26.9 12-26.9 26.9-26.9 26.9 12 26.9 26.9zm76.1 27.2c-.1-55.2-44.9-100.1-100.1-100.1
+            H100.1C44.9 64 0 108.8 0 164v184c0 55.2 44.9 100.1 100.1 100.1h246.3
+            c55.2 0 100.1-44.9 100.1-100.1V164c0-14.2-1.9-28.1-5.6-41zM398.8 348c0 33.6-27.3 60.9-60.9 60.9H110.1
+            c-33.6 0-60.9-27.3-60.9-60.9V164c0-33.6 27.3-60.9 60.9-60.9h227.8
+            c33.6 0 60.9 27.3 60.9 60.9v184z"/>
+        </svg>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/opeyemiodusanya" target="_blank" aria-label="LinkedIn">
+        <svg width="40" height="40" viewBox="0 0 448 512" fill="#0077ff" xmlns="http://www.w3.org/2000/svg">
+          <path d="M100.28 448H7.4V148.9h92.88zm-46.44-340.7C24.4 107.3 0 82.9 0 53.2
+            0 23.6 24.4-.1 53.84-.1s53.84 24.7 53.84 53.3c0 29.7-24.4 54.1-53.84 54.1zM447.9 448h-92.68V302.4
+            c0-34.7-12.4-58.4-43.44-58.4-23.7 0-37.8 15.9-44 31.3-2.3 5.6-2.8 13.4-2.8 21.3V448h-92.7s1.2-241.1 0-266.1h92.68v37.7
+            c12.3-19 34.3-46.1 83.4-46.1 60.8 0 106.5 39.7 106.5 125V448z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Opeyemi</p>
+</footer>
+
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+
+</body>
+</html>

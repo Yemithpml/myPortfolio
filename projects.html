@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <a href="index.html">
+      <h2 class="logo">MyPortfolio</h2>
+    </a>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <h2>My Projects</h2>
+
+  <div class="projects">
+    <div class="card">
+      <img src="images/bigbang.png" alt="big bang store image">
+        <h3>E-commerce store</h3> 
+      <a href="https://big-bang-store.vercel.app/">The big bang store</a>
+      <p>The big bang store is an E-commerce website for headphones built with React and tailwind css</p>
+    </div>
+     <div class="card">
+      <img src="images/climax.png" alt="climax weather app image">
+        <h3>Weather App</h3>
+      <a href="https://clima-x-zeta.vercel.app/">ClimaX</a>
+      <p>ClimaX is a simple weather app that uses the free weather map api to fetch real time weather coditions.
+        built with Html 5, css3 and vanilla javascript.
+      </p>
+    </div>
+     <div class="card">
+      <img src="images/virco.png" alt="Virco Movie App image">
+      <h3>Movie App</h3>
+      <a href="https://virco-movie-app.vercel.app/">Virco</a>
+      <p>Virco is a Movie App that uses the TDMB api to fetch available movies and displays them dynamically.
+        Built with React Js and tailwind css.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Opeyemi</p>
+</footer>
+
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+
+</body>
+</html>

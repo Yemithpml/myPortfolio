@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opeyemi | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+   <a href="index.html">
+      <h2 class="logo">MyPortfolio</h2>
+    </a>
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<section class="hero">
+  <div class="hero-content">
+
+    <div class="hero-text">
+      <h1>Hi, I'm Opeyemi</h1>
+      <p>A Proud Nest Techie & Aspiring Software Engineer</p>
+      <button onclick="location.href='projects.html'">View Projects</button>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/profile.jpg" alt="Opeyemi profile picture">
+    </div>
+
+  </div>
+</section>
+
+
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+
+</body>
+</html>

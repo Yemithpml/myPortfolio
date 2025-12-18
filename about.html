@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <a href="index.html">
+      <h2 class="logo">MyPortfolio</h2>
+    </a>
+
+
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      I'm an Electrical & Electronics Engineering student with a strong interest
+      in frontend development. I love creating beautiful and functional web
+      applications.
+    </p>
+
+    <h3>Skills</h3>
+    <ul>
+      <li>HTML 5</li>
+      <li>CSS 3</li>
+      <li>JavaScript</li>
+      <li>React Js</li>
+      <li>Next Js</li>
+      <li>Git & GitHub</li>
+    </ul>
+
+    <h3>Education</h3>
+    <p>Lagos State University of Science and Technology</p>
+
+    <h3>Hobbies</h3>
+    <p>Coding, learning new technologies, problem solving</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Opeyemi</p>
+</footer>
+
+<script>
+  const menuToggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+
+</body>
+</html>
